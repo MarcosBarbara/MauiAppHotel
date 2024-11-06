@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.SobreHotelHospedagem"
+             Title="SobreHotelHospedagem"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Gray100}">
+
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+        Padding="10">
+        <Label Text="Sobre Hotel"
+               FontFamily="KalamBold"
+               FontSize="70"
+               TextColor="{StaticResource Primary}" />
+
+        <ScrollView>
+            <VerticalStackLayout
+            Padding="10,0" Spacing="15">
+                <Label
+                HorizontalTextAlignment="Center"
+                Text="Programa desenvolvido para reserva, "
+                FontFamily="Kalam"
+				FontSize="20"
+                Style="{StaticResource Primary}"/>
+
+                <Label
+                HorizontalTextAlignment="Center"
+                Text="acompanhamento e controle de estadias"
+                FontFamily="Kalam"
+				FontSize="20"
+                Style="{StaticResource Primary}"/>
+               
+                <Frame>
+                
+                    <Label 
+                    HorizontalTextAlignment="Center"		
+				    Text="Hotel ETEC DWU"
+                    FontFamily="Kalam"
+				    FontSize="30"
+                    Style="{StaticResource Primary}"/>
+                 
+                </Frame>
+              
+                <Label
+                HorizontalTextAlignment="End" 	
+                Text="desenvolvido para disciplina de"
+                FontFamily="Kalam"
+				FontSize="12"
+                Style="{StaticResource Primary}"/>
+
+                <Label	
+                HorizontalTextAlignment="End"
+                Text="Desenvolvimento de Sistemas"
+                FontFamily="Kalam"
+				FontSize="12"
+                Style="{StaticResource Primary}"/>
+                
+                <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="30">
+                    <Label	
+                    HorizontalTextAlignment="Center"
+                     Text="2.o Módulo - 2024"
+                    FontFamily="Kalam"
+				    FontSize="15"
+                    Style="{StaticResource Primary}"/>
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+        </ScrollView>
+        <Button Text="Retornar" Clicked="Button_Clicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
