@@ -44,7 +44,7 @@
               
                 <Label
                 HorizontalTextAlignment="End" 	
-                Text="desenvolvido para disciplina de"
+                Text="Desenvolvido para disciplina de"
                 FontFamily="Kalam"
 				FontSize="12"
                 Style="{StaticResource Primary}"/>
@@ -56,7 +56,14 @@
 				FontSize="12"
                 Style="{StaticResource Primary}"/>
                 
-                <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="30">
+                <Label	
+                HorizontalTextAlignment="End"
+                Text="Marcos Barbara dos Santos"
+                FontFamily="KalamBold"
+			    FontSize="10"
+                 Style="{StaticResource Primary}"/>
+                
+                <VerticalStackLayout VerticalOptions="CenterAndExpand" Padding="20">
                     <Label	
                     HorizontalTextAlignment="Center"
                      Text="2.o Módulo - 2024"
